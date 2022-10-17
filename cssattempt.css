@@ -1,0 +1,82 @@
+.zegar {
+    width: 60%;
+    height: 110px;
+    display: inline-block;
+}
+.zegar p {
+    text-align: center;
+    color: yellowgreen;
+}
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow;
+}
+
+.containter-flex2 {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.container-flex3 {
+    display: inline-flex;
+}
+
+
+
+.zawartosc {
+    height: 550px;
+    width: 60%;
+    border: groove 1px;
+    color: yellowgreen;
+}
+
+.item-flex {
+    width: 200px;
+    height: 35px;
+    margin: 10px;
+    border: dotted 1px;
+    background-color:rgb(13, 13, 13);
+}
+
+.flexbox-one {
+    min-height: ;
+}
+
+.flexbox-one p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexbox-two {
+    min-height: ;
+}
+
+.flexbox-three {
+    min-height: ;
+}
+
+.flexbox-four {
+    min-height: ;
+}
+
+.flexbox-five {
+    min-height: ;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow;
+}
+
+html {
+    background-color: black;
+}
+
+#id {
+  justify-content: center;
+}
