@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta lang="pl">
+    <link rel="stylesheet" href="FLEX.css">  
+    <title>STRONKI MAKSA</title>
+</head>
+<body>
+    <div class="container-flex">
+        <div class="item-flex flexbox-one">Tutaj</div>
+        <div class="item-flex flexbox-two">kiedyś</div>
+        <div class="item-flex flexbox-three">coś</div>
+        <div class="item-flex flexbox-four">tam</div>
+        <div class="item-flex flexbox-five">będzie</div>
+    </div>
+    <div class="zegar">
+        <h1>
+            <script>
+                function startTime() {
+                  const today = new Date();
+                  let h = today.getHours();
+                  let m = today.getMinutes();
+                  let s = today.getSeconds();
+                  m = checkTime(m);
+                  s = checkTime(s);
+                  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+                  setTimeout(startTime, 1000);
+                }
+                
+                function checkTime(i) {
+                  if (i < 10) {i = "0" + i}; 
+                  return i;
+                }
+            </script>
+        </p>
+    </div>
+    
+    <h1>BARDZO CIEKAWY FORMULARZ</h1>
+    <div class="containter-flex2">
+        <div class="zawartosc">
+        <button type="button" onclick="document.getElementById('demo').style.display='block'">Kliknij mnie!</button>
+            <p id=demo style="display:none">Buu! Wystraszyłem cię!<br><br>
+        <button id=demo type="button" onclick="document.getElementById('demo').style.display='none'">A teraz kliknij mnie!</button></p>
+    
+            
+        </div>
+    </div>
+</body>
+</html>
